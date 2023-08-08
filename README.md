@@ -1,5 +1,10 @@
 # Todo App with Zustand
 
+<p align="center">
+  <img src="bear.jpg" />
+</p>
+
+
 [![Build Status](https://travis-ci.org/pmndrs/zustand.svg?branch=master)](https://travis-ci.org/pmndrs/zustand)
 [![npm version](https://badge.fury.io/js/zustand.svg)](https://www.npmjs.com/package/zustand)
 [![Bundle size](https://badgen.net/bundlephobia/minzip/zustand)](https://bundlephobia.com/result?p=zustand)
