@@ -26,13 +26,5 @@ Zustand'ı projenize eklemek için aşağıdaki komutları kullanabilirsiniz:
 npm install zustand
 # veya
 yarn add zustand
-``` 
-
-## Zustand'ı kullandığım todo uygulamam
-
-```bash
-npm install 
-
-
 
 
