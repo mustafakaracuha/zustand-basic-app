@@ -9,6 +9,8 @@
 
 Zustand, React uygulamaları için basit ve ölçeklenebilir bir durum yönetimi kütüphanesidir. React Hook API'sini kullanarak, bileşen ağaçlarınız boyunca paylaşılan durumu kolayca yönetmenizi sağlar.
 
+Zustand is a simple and scalable state management library for React applications. It allows you to easily manage shared state across your component trees using the React Hook API.
+
 ## Özellikler
 
 - Basit ve temiz API ile hızlı entegrasyon
