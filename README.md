@@ -34,6 +34,9 @@ npm install zustand
 # veya
 yarn add zustand
 ```
+  <div>
+  <img width="400" src="app1.png" />
   <img width="400" src="app.png" />
+  </div>
 
 
