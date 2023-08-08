@@ -34,12 +34,14 @@ npm install zustand
 # veya
 yarn add zustand
 ```
+ ## Live
+
+ [Vercel App](./docs/guides/immutable-state-and-merging.md)
+
+
   <div>
   <img width="400" src="app1.png" />
   <img width="400" src="app.png" />
   </div>
 
- ## Live
-
- [Vercel App](./docs/guides/immutable-state-and-merging.md)
 
