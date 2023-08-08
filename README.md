@@ -34,8 +34,6 @@ npm install zustand
 # veya
 yarn add zustand
 ```
-<p align="center">
   <img width="400" src="app.png" />
-</p>
 
 
