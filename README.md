@@ -1,7 +1,7 @@
 # Todo App with Zustand
 
 <p align="center">
-  <img src="bear.jpg" />
+  <img src="./src/assets/bear.jpg" />
 </p>
 
 
@@ -40,8 +40,8 @@ yarn add zustand
 
 
   <div>
-  <img width="400" src="app1.png" />
-  <img width="400" src="app.png" />
+  <img width="400" src="./src/assets/app1.png" />
+  <img width="400" src="./src/assets/app.png" />
   </div>
 
 
