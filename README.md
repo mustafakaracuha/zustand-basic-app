@@ -1,4 +1,4 @@
-# Zustand To Do
+# To Do with Zustand
 
 [![Build Status](https://travis-ci.org/pmndrs/zustand.svg?branch=master)](https://travis-ci.org/pmndrs/zustand)
 [![npm version](https://badge.fury.io/js/zustand.svg)](https://www.npmjs.com/package/zustand)
