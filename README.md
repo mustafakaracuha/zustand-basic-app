@@ -39,4 +39,7 @@ yarn add zustand
   <img width="400" src="app.png" />
   </div>
 
+ ## Live
+
+ [Vercel App](./docs/guides/immutable-state-and-merging.md)
 
