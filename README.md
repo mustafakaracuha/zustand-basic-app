@@ -35,7 +35,7 @@ npm install zustand
 yarn add zustand
 ```
 <p align="center">
-  <img src="app.png" />
+  <img width="100" src="app.png" />
 </p>
 
 
