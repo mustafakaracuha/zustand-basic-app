@@ -36,7 +36,7 @@ yarn add zustand
 ```
  ## Live
 
- [Vercel App](./docs/guides/immutable-state-and-merging.md)
+ [Vercel Todo App](./docs/guides/immutable-state-and-merging.md)
 
 
   <div>
