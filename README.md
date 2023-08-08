@@ -33,5 +33,9 @@ Zustand'ı projenize eklemek için aşağıdaki komutları kullanabilirsiniz:
 npm install zustand
 # veya
 yarn add zustand
+```
+<p align="center">
+  <img src="app.png" />
+</p>
 
 
