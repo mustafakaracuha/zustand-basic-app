@@ -41,7 +41,7 @@ function App() {
               {todo.text}
             </span>
             <span className='text-md ml-2 opacity-30'>
-              {todo.completed ? '(Complated)' : ""}
+              {todo.completed ? '(Completed)' : ""}
             </span>
             </div>
             <button className='w-auto p-4 text-rose-400 bg-rose-100 rounded-xl text-md font-medium' onClick={() => deleteTodo(todo.id)}><FaTrash /></button>
