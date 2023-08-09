@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStore } from '../../store/store';
 
-import { FaTrash } from 'react-icons/fa';
+import { FaTrash, FaPen } from 'react-icons/fa';
 
 function TodoList() {
   const todos = useStore(state => state.todos);
@@ -28,10 +28,6 @@ function TodoList() {
             <span
              className='cursor-pointer mb-2'
               style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}
-              onClick={() => {
-                const newText = prompt('Edit todo:', todo.text);
-                handleEditTodo(todo.id, newText);
-              }}
             >
               {todo.text}
             </span>
@@ -39,7 +35,13 @@ function TodoList() {
               {todo.completed ? '(Completed)' : ""}
             </span>
             </div>
-            <button className='w-auto p-4 text-rose-400 bg-rose-100 rounded-xl text-md font-medium' onClick={() => removeTodo(todo.id)}><FaTrash /></button>
+        <div>
+        <button className='w-auto p-3 text-emerald-500 bg-emerald-200 rounded-xl text-md font-medium mr-2' onClick={() => {
+              const newText = prompt('Edit todo:', todo.text);
+              handleEditTodo(todo.id, newText);
+            }}><FaPen /></button>
+        <button className='w-auto p-3 text-rose-400 bg-rose-100 rounded-xl text-md font-medium' onClick={() => removeTodo(todo.id)}><FaTrash /></button>
+        </div>
           </li>
         ))}
       </ul>
