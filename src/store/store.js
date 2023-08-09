@@ -8,7 +8,7 @@ export const useStore = create((set) => {
     addTodo: (text) => {
       const newTodo = { text, id: Date.now(), completed: false };
       set((state) => {
-        const updatedTodos = [...state.todos, newTodo];
+        const updatedTodos = [newTodo, ...state.todos];
         localStorage.setItem('todos', JSON.stringify(updatedTodos)); 
         return { todos: updatedTodos };
       });
