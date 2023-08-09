@@ -6,7 +6,15 @@ import { FaTrash } from 'react-icons/fa';
 function TodoList() {
   const todos = useStore(state => state.todos);
   const toggleTodo = useStore(state => state.toggleTodo);
-  const deleteTodo = useStore(state => state.deleteTodo);
+  const removeTodo = useStore(state => state.removeTodo);
+  const editTodo = useStore((state) => state.editTodo);
+
+
+  const handleEditTodo = (id, newText) => {
+    if (newText) {
+      editTodo(id, newText);
+    }
+  };
 
   return (
         <ul className='w-full h-[300px] overflow-auto scroll-smooth'>
@@ -20,6 +28,10 @@ function TodoList() {
             <span
              className='cursor-pointer mb-2'
               style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}
+              onClick={() => {
+                const newText = prompt('Edit todo:', todo.text);
+                handleEditTodo(todo.id, newText);
+              }}
             >
               {todo.text}
             </span>
@@ -27,7 +39,7 @@ function TodoList() {
               {todo.completed ? '(Completed)' : ""}
             </span>
             </div>
-            <button className='w-auto p-4 text-rose-400 bg-rose-100 rounded-xl text-md font-medium' onClick={() => deleteTodo(todo.id)}><FaTrash /></button>
+            <button className='w-auto p-4 text-rose-400 bg-rose-100 rounded-xl text-md font-medium' onClick={() => removeTodo(todo.id)}><FaTrash /></button>
           </li>
         ))}
       </ul>
